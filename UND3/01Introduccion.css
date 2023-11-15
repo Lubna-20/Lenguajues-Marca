@@ -1,0 +1,23 @@
+/*Tipo de letra de la paguina (de todos los elementos) Courier New */
+
+*{
+	font-family:Courier New;
+}
+/*Los parrafos deben salir en color naranja*/
+p{
+	color:orange;
+}
+ul{
+	font-style:italic;
+}
+/*Los elementos de la clase resaltar deben aparecer rn negrita y subrayado*/
+.resaltar{
+	font-weight:bold;
+	text-decoration:underline;
+	color:red;
+}
+/*Herencia: Los elementos que estan dentro de otros (hijos),heredan el css*/
+/*Todos los elementos del header deben tener un findo beige*/
+header{
+	background-color:pink;
+}
