@@ -1,7 +1,7 @@
 /*SELECTORES*/
 /*
 SELLECTOR UNIVERSAL: *
-HACER QUE TODOS LOS EJEMENTOS DE LA PAGUINA SE MUESTREN CON EL IPO DE LETRA ARIAL
+HACER QUE TODOS LOS ELEMENTOS DE LA PAGUINA SE MUESTREN CON EL IPO DE LETRA ARIAL
 */
 *{
 	font-family:Arial;
@@ -89,12 +89,61 @@ eti1 : eti2 last_child  Ultimo hijo
 eti1 : eti2 empty  Elementos vacios
 
 -Los li que sean hijo directos de un ul de clase mapa deben aparecer subrayados
--Los h1 hermanos DIRECTOS de a deben salir subrayados
+-Los p hermanos DIRECTOS de h1 deben salir subrayados
+-El primer hijo de un ul que es hermano directo de un parrafo debe salir en rojo y
+ el ultimo en naranja
 */
 ul.mapa > ul>li{
 	text-decoration:underline;
 }
-a+h1{
+h1+p{
 	text-decoration:underline;
+}
+p+ul>li:first-child{
+	color:red;
+}
+p+ul>li:last-child{
+	color:green;
+}
+/*
+Pseudoclases:
+-Los rnlaces no visitados salgan en color Verde
+-Los enlaces visitaros en color rojo  sin subrayados
+-Al pasar por encima de los enlaces debe aparecer un fondo plateado
+-Al pasar por encima de los enlaces no visitados debe aparecer un fondo olive
+-La primera letra del primer parrafo hermano directo de un h1 debe salir a tamalo 29pt
+
+*/
+
+a:link{
+	color:#00FF00;
+}
+a:visited{
+	color:#FF0000;
+	text-decoration:none;
+}
+a:hover{
+	background-color:yellow;
+}
+a:link:hover{
+	background-color:olive;
+}
+h1+p:first-letter{
+	font-size:20pt;
+}
+/*
+-Cuando un campo tirnr el foco su color del fondo sera amarillo
+-Campos deshabilitados con color de texto rojo
+-Las etiquetas de los campos chekeados deben tener un color de fondo cyan
+
+*/
+form :focus{
+	background-color:#FFFF00;
+}
+form :disabled{
+	color:red;
+}
+form :checked+label{
+	 background-color:cyan;
 }
 

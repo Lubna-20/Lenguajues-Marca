@@ -1,0 +1,22 @@
+/*El tipo de letra de toda la página dbe ser Calibri.*/
+*{
+	font-family:Calibri;
+}
+/*Todos los títulos h1 deben aparecer centrados.*/
+h1{
+	text-align:center;
+}
+/*Solamente el título Mis recetas de cocina debe aparecer en color azul.*/
+h1.azul{
+	color:blue;
+}
+/*Los títulos de los platos deben tener aparecer en color verde.*/
+h1.verde{
+	color:green;
+}
+/*Lo texto del pie de página deben aparecer centrados y de color silver.*/
+footer{
+	text-align:center;
+	color:silver;
+}
+/*Los títulos de las recetas deben salir en cursiva y color naranja.*/
