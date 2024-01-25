@@ -1,0 +1,13 @@
+/* TABLAS*/
+th{
+	background-color:pink;
+	color:darkgray;
+}
+table{
+	border: 1px solid black;
+	border-spacing:10px;
+	border-collapse:collapse;	/*border-spacing  deja de tener efecto*/
+}
+th, td{
+	border: 1px dashed blue;
+}

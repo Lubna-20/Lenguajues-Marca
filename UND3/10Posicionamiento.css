@@ -1,0 +1,77 @@
+/* POSICIONAMIENTO FLOTANTE */
+.d1, .d2, .d3{
+	width: 100px;
+	height: 100px;
+	border:1px solid blue;
+	float:right;
+}
+.d1{
+	color: red;
+}
+.d2{
+	color: green;
+}
+.d3{
+	color: blue;
+}
+h1{
+	width:250px;
+	border:1px solid red;
+	clear: both;	/* Hace que h1 no tenga elementos flotantes a su alrededor */
+}
+/* POSICIONAMIENTO FIJO */
+.d4{
+	width: 100px;
+	height: 100px;
+	border:1px solid blue;
+	float:right;
+	position:fixed;
+	top:300px;
+	left:50%;
+}
+.d5{
+	width: 100px;
+	height: 100px;
+	border:1px solid blue;
+	position:relative;
+	top:30px;
+	left:30px;
+}
+.d6{
+	margin-top:100px;
+	width: 100px;
+	height: 100px;
+	border:1px solid blue;	
+	position:relative;     /*Va a salir en el mismo que statis*/
+	/*Hace que d7 se desplace respecto a d7*/
+}
+.d7{
+	width: 100px;
+	height: 100px;
+	border:1px solid olive;
+	position:absolute;      
+	top:30px;
+	left:30px;
+}
+/* POSICIONAMIENTO PEGAJOSO / STICKY*/
+.d8{
+	width: 100px;
+	height: 100px;
+	border:1px solid olive;
+	position:sticky;      
+	top:30px;
+	left:30px;
+}
+.d9{
+	padding:50px;
+	background-color:lime;
+	z-index:10;
+} 
+.d10{
+	padding:50px;
+	background-color:pink;
+	z-index:-3;
+	position:relative;
+	top:-30px;
+	left:30px;
+}

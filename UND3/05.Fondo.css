@@ -1,0 +1,25 @@
+ /*PROPIEDADES DE FONDO*/
+body{       
+	/*COLOR DE FONDO A BODY*/
+	background-color: pink;
+}
+.noticia1{
+	/*COLOR DE FONDO EN NOTICIA 1*/
+	background-color: lightgreen;
+}
+p.noticia2{       
+	height:300px;
+	background-color:cyan;
+	background-image: url('img/chatbox.png');
+	background-repeat:no-repeat;
+	/*FIJAR IMAGEN */	
+	background-attachment:fixed;
+	/*POSICIONAR ABAJO A LA DERECHA*/
+	background-position:right bottom;
+	/*POSICIONAR CENTRADO VERTICAL Y HORIZONTAL*/
+	background-position:center;
+}
+p.noticia3{
+	/*PROPIEDAD SHORTHAND*/
+	background: silver url('img/chatbox.png') repeat-y scroll top center;
+}

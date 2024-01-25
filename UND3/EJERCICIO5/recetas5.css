@@ -5,19 +5,24 @@
 /*El tipo de letra de toda la página dbe ser Calibri.*/
 h1{
 	text-align:center;
+	/*ejercicio4*/
+	font-size:xx-large;
+	text-shadow: 3px 3px 5px black;
 	
 }
 /*Solamente el título Mis recetas de cocina debe aparecer en color azul.*/
+/*El color del título de la página
+debe tener transparencia de 0.4.*/
 header>h1{
-	color:blue;
+	color:rgb(0,0,255,0.4);
+	
 }
 /*Los títulos de los platos deben tener aparecer en color verde.*/
 /*Los h1 deben salir a un tamaño de fuente xx-large y con una sombra negra con
 un desenfoque de 5px.*/
 .tipoPlato h1{
 	color:green;
-	font-size: xx-large;
-	text-shadow: 2px 2px black;
+	
 }
 /*Lo texto del pie de página deben aparecer centrados y de color silver.*/
 footer{
@@ -88,4 +93,37 @@ títulos de cada receta, en negrita y con una sangría de 1a línea de 30px.*/  
 	text-indent: 30px;
 	font-weight:bold;
 	
+}
+
+/*La página debe tener el color de
+fondo #EDEFEB y la imagen
+gorros.png.*/
+body{
+	background: #EDEFEB url('img/gorros.png') repeat-x;
+}
+/*El índice se debe mostrar en una
+sola línea.*/
+.indice li{
+	display:inline;
+}
+/*Quitar el icono de viñeta de los
+platos.*/
+.plato>li{
+	list-style-type:none;
+}
+
+/*Los ingredientes deben tener
+como símbolo la imagen
+vineta.png.*/
+
+p+ul{
+	list-style-image:url('img/vineta.png');
+}
+/*Coloca la imagen cocinero.png en
+la sección envío, a la derecha y
+centrada verticalmente.*/
+section.envio{
+	
+	color:white;
+	background: gray no-repeat url('img/cocinero.png') right center;
 }

@@ -1,0 +1,42 @@
+/*PROPIEDADES DE FORMATO DE TEXTO*/
+p.noticia1{
+	/*ESPACIO ENTRE PALABRAS*/
+	word-spacing:20px;
+	/*ALINEACION HORIZONTAL DERECHA*/
+	text-align:right;
+	
+}
+p.noticia2{
+	/*ESPACIO ENTRE LETRAS*/
+	letter-spacing:5px;
+	/*ALINEACION HORIZONTAL CENTRADA*/
+	text-align:center;
+}
+p.noticia3{
+	/*ALINEACION HORIZONTAL JUSTIFICADA*/
+	text-align:justify;
+	/*SANGRIA DE 1ª LINEA DE 30 PX*/
+	text-indent: 30px;
+}
+
+h1:first-child{   
+	/* SUBRAYADO POR LA PARTE SUPERIOR EN AZUL Y PUNTEADO */
+	/* TIPO COLOR ESTILO GROSOR*/
+	text-decoration:overline blue dotted ;  
+	/*LETRA MAYUSCULA */
+	text-transform:uppercase;
+	/*SOMBRA*/
+	text-shadow: 2px 2px silver;
+}
+h1.noticia2{   
+	/*TACHADO VERDE Y ONDULADO*/
+	text-decoration:line-through green wavy 3px ;
+	/*LETRA MINUSCULA*/
+	text-transform:lowercase;
+}
+h1.noticia3{   
+	/* SUBRAYADO LINEA DISCONTINUA */
+	text-decoration:underline pink dashed 3px ;
+	/* LETRA TIPO TITULO*/
+	text-transform:capitalize;
+}
