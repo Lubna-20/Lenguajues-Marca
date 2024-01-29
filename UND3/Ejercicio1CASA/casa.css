@@ -1,0 +1,17 @@
+.pared{
+	width: 400px;
+	height: 400px;
+	position:fixed;
+	background-color:grey;
+	border:2px solid black;
+	margin:100px;
+}
+.techo{
+	width: 400px;
+	height: 100px;
+	position:fixed;
+	background-color:red;
+	margin:10px;
+	border:2px solid black;
+	
+}
