@@ -66,7 +66,7 @@ a:visited{
 }
 /*Al pasar por encima de los enlaces, estos deben aparecer en color rojo.*/
 a:hover{
-	background-color:silver;
+	background-color:rgb(255,255,255.0.5);
 }
 a:active{
 	color:red;
@@ -112,8 +112,18 @@ sola línea.*/
 }
 /*Quitar el icono de viñeta de los
 platos.*/
+/*Cada receta debe salir
+como se muestra. El
+ancho máximo debe ser
+400.*/
 .plato>li{
 	list-style-type:none;
+	width:400px;
+	margin:50px auto;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px inset black;
+	padding:30px;
 }
 
 /*Los ingredientes deben tener
@@ -130,6 +140,9 @@ section.envio{
 	
 	color:white;
 	background: gray no-repeat url('img/cocinero.png') right center;
+	width:400px;
+	border: 10px ridge   white;
+	padding:30px;
 }
 /*Los enlaces deben salir
 como se muestra en la

@@ -1,0 +1,13 @@
+/* VISIVILIDAD */
+p{
+	width:30%;
+	height:100px;
+	border:1px solid red;
+	overflow:hidden; /* LO QUE NO ENTRA EN EL MARCO , SE OCULTA*/
+	overflow:scroll;  /*SE MUESTRA SCROLL SIEMPRE*/
+	overflow:auto; /*SE MUESTRA SCROLL CUANDO ES NECESARIO*/
+}
+
+p.noticia2{
+	visibility:hidden; /*OCULTA EL PARRAFO PERO RESERVA SU ESPACIO*/
+} 

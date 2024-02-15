@@ -1,0 +1,11 @@
+/* DISPLAY */
+h1, p{
+	width:30%;
+	height:100px;
+	border:1px solid red;
+	overflow:auto; /*SE MUESTRA SCROLL CUANDO ES NECESARIO*/
+	display:inline; /*LOS CONVERTIMOS EN ELEMENTOS DE LINEA*/
+	display:inline-block; /*LOS CONVERTIMOS EN ELEMENTOS DE LINEA*/
+	
+}
+

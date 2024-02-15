@@ -1,0 +1,84 @@
+p{
+	border:2px solid black;
+	background-color:white;
+}
+
+#principal{
+	display:flex;
+	flex-direction:column;
+}
+#cabeceraPrincipal{
+	background-color:red;
+	display:flex;
+	flex-direction:row;
+}
+#cabeceraPrincipal p, #navPrincipal p , #pieDatos p{
+	width:100px;
+	margin:10px;
+	height:30px;
+}
+#navPrincipal{
+	background-color:aqua;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+#zonaContenidos{
+	flex-direction:row;
+	display:flex;
+	
+}
+#lateralIzq{
+	background-color:orange;
+	flex-grow:2;     /* Propiedad de flex-item, el elemento crece en funcion del tamaño de la ventana a una proporcion de 2 */
+	display:flex;
+	flex-direction:column;
+	justify-content:center; /* Centra en vertical */
+	align-items:center;   /*Centra en Horizontal */
+}
+#lateralIzq p{
+	width:50px;
+	height:60px;
+}
+#zonaDatos{
+	 flex-grow:8;    /* Propiedad de flex-item, el elemento crece en funcion del tamaño de la ventana a una proporcion de 8 */
+	 display:flex;
+	 flex-direction:column;
+}
+#zonaCentro{
+	display:flex;
+	flex-direction:row;
+}
+#pieDatos{
+	background-color:purple;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	
+}
+#zona1{                       
+	flex-grow:1; 
+	background-color:pink;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+#zona1 p{
+	width:60px;
+	height:80px;
+	margin:10px;
+}
+#zona2{
+	flex-grow:1; 
+	background-color:green;
+	justify-content:center;
+	display:flex;
+	flex-direction:row;
+	
+}
+#zona2 p{
+	width:60px;
+	height:200px;
+	margin:10px;
+}

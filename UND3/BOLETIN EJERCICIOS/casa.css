@@ -1,23 +1,25 @@
-.pared{
-	width: 400px;
-	height: 400px;
-	position:fixed;
+.casa{
+	width: 300px;
+	height: 300px;
+	position:relative;
 	background-color:grey;
 	border:2px solid black;
-	margin:100px;
+	margin:100px auto;
 }
 .techo{
 	width: 400px;
 	height: 100px;
-	position:relative;
+	position:absolute;
 	background-color:red;
-	margin:10px;
+	margin:1px;
 	border:2px solid black;
+	top:-57;
+	left:-28;
 	
 }
 .amarillo{
-	width: 300px;
-	height: 90px;
+	width: 255px;
+	height: 85px;
 	background-color:#ffc107;
 	border:2px solid black;
 	float:right;
@@ -27,29 +29,30 @@
 	margin:20px;
 }
 	
-.ventana{
-	width: 90px;
-	height: 90px;
+.ventana1, .ventana2{
+	width: 55px;
+	height: 55px;
 	background-color:blue;
 	border:2px solid black;
-	position: sticky;
-    margin-left: 50px;
-    margin-right: 90px;
-    margin-top: 170px;
+	position: absolute;
+    top:150px;
 	
 }
-.azul{
-	width: 90px;
-	height: 90px;
-	background-color:blue;
-	border:2px solid black;
-	margin:40px;
+.ventana1{
+	left:200px;
+
+}
+.ventana2{
+	left:40px;
 
 }
 .puerta{
-	width: 60px;
-	height: 120px;
+	width: 75px;
+	height: 68px;
 	background-color:brown;
 	border:2px solid black;
+	position:absolute;
+	top:230px;
+	left:120px;
 
 }
