@@ -1,0 +1,120 @@
+#titulo h1{
+	color:navy;
+	text-shadow: -4px -6px 3px #ff9800;
+	text-align:center;
+}
+#titulo{
+	text-align:center;
+}
+li{
+    list-style-type: none;  /*Quitamos punto*/
+	  display: inline-block; /*Ponemos todo en la misma linea*/
+}
+nav li a{
+	text-decoration:none;
+	text-align:center;
+	color:navy;
+	border: 1px solid navy;
+    border-radius: 10px; /*Borde-radio/redondo*/
+    padding: 10px; 
+    margin: 2px;
+}
+nav a:hover{
+	color:white;
+	border: 2px dashed #ff9800;
+	background-color:navy;
+	border-radius: 10px; /*Borde-radio/redondo*/
+    padding: 10px; 
+    margin: 2px;
+}
+	
+}
+a{
+    text-decoration: none; /*Quitamos el subrayado*/
+}
+#busqueda{
+	float:right;
+	position:fixed;
+	top:20px;
+	right:1px;
+	
+}
+input:focus{
+	background-color:#ff9800;
+	
+}
+h3{
+	text-transform:uppercase;
+	color:navy;
+}
+footer{
+	background-color:navy;
+	text-align:center;
+	color:white;
+	padding:1px;
+}
+#cat li{
+	display:block;
+	border: 1px solid navy;
+    border-radius: 10px; /*Borde-radio/redondo*/
+    padding: 10px; 
+    margin: 10px;
+	height:10px;
+	width:100px;
+	background-image:linear-gradient(to right,#ff9800, white);
+	box-shadow:-4px -6px 3px navy;
+	
+
+}
+#cat li:hover{
+	 transform: scale(1.2) ; /*Aumenta el doble en X y en Y */
+}
+#cat #promo{
+	width: 200px;
+	display:flex;
+	flex-direction:column; /*Direccion del eje principal*/
+	align-items: center; /*Permite alienear a lo largo del eje tranversal*/
+	overflow: hidden; 
+	
+}
+#art{
+    display: flex;
+    /* grid-area: s1; */
+    height: 150px;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+	
+}
+article{
+	align-content:grid-center;
+	border: 1px solid navy;
+    border-radius: 10px; /*Borde-radio/redondo*/
+	padding: 10px; 
+    margin: 10px;
+	height:250px;
+	width:280px;
+}
+#promo{ 
+
+	animation: tienda 10s linear 0s infinite normal;
+	
+}   
+aside li{
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    display: block;
+    width: 200px;
+    margin: 10px;
+}             
+@keyframes tienda{/* Definimos la animacion proporcioanlmete en %*/
+	0% {color:red;color:silver;}
+	50% {color:silver;color:red;}
+	100% {color:red;color:silver;}
+}
+	

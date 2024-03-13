@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE song[
+<!ELEMENT song (title,composers, producers, plubishers,artists)>
+<!ATTLIST song lenght CDATA #REQUIRED anio CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT composers (composer*)>
+<!ELEMENT composer (nombre,apellidos?)>
+
+]
+>

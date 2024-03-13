@@ -1,0 +1,29 @@
+li{
+	background-color:#F5CBA7;
+	color:#6E2C00;
+	/* QUITAR SIMBLO DE VIÑETA */
+	list-style-type:none;
+	/*CONVERTIR EL ELEMENTO DE BLOQUE PERO EN LA MISMA LINEA*/
+	display:inline-block;
+	/*FIJAR ANCHO PARA QUE TODOS SALGAN DEL MISMO TMAÑO*/
+	width:200px;
+	/*ALINEAR EN EL EJE Y CON EL ELEMENTO MAS ALTO */
+	vertical-align:top;
+}
+li li{
+	/*CONVERTIR EN ELEMENTO DE BLOQUE*/
+	display:none;
+	/*DESLIZAR UN POQUITO A LA IZQUIERDA*/
+	position:relative;
+	left:-40px;
+	
+}
+li:hover{
+	/*INVERTIR COLORES*/
+	background-color: #6E2C00;
+	color: #F5CBA7;
+}
+li:hover li{
+	/*CONVERTIR EN ELEMENTO DE BLOQUE*/
+	display:block;
+}
